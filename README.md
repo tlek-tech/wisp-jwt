@@ -1,6 +1,6 @@
 # wisp-jwt
 
-JWT (HS256) authentication plugin for the [Wisp](../wisp) PHP micro-framework.
+JWT (HS256) authentication plugin for the [Wisp](https://github.com/tlek-tech/wisp) PHP micro-framework.
 
 Adds `\Wisp\Jwt::encode()` / `::decode()`, a `JwtMiddleware` for protecting routes with
 `Authorization: Bearer <token>`, and a `$req->user()` macro that exposes the decoded
